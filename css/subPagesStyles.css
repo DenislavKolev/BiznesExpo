@@ -1,0 +1,205 @@
+body, main, div, section, p, ul, li, nav, a, header, img, i{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p, h1{
+    padding: 0 .5em;
+}
+/*Sub pages header styles*/
+#mobile_nav{
+    display: none;
+    position: sticky;
+    font-size: 4em;
+    text-align: right;
+    padding-right: .3em;
+}
+#mobile_nav a{
+    color: white;
+}
+#close{
+    display: none;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+header nav{
+    display: inline-block;
+    padding: .5em 3em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header nav ul{
+    display: inline-block;
+}
+#subPagesNav{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    font-size: 1.6em;
+    padding: .6em;
+}
+header nav ul li a{
+    color: white;
+    position: relative;
+}
+header nav ul li a:hover{
+    color: #b0d4f1;
+}
+nav ul li a:not(.notUnderline):after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #b0d4f1;
+    transition: width ease-in .4s;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+@media (max-width: 900px) {
+    header nav{
+        display: none;
+    }
+    #mobile_nav{
+        display: block;
+    }
+}
+/*Sub pages main container styles*/
+main{
+    text-align:center;
+    text-align:-webkit-center;
+    width: 90%;
+    background-color: #fafafa;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 0px 10px 30px 1px rgba(0,0,0,0.75);
+}
+main h1{
+    text-align: center;
+    padding: 1.5em 0 .5em 0;
+    font-size: 2.6em;
+}
+@media (max-width: 750px) {
+   main h1{
+       font-size: 2em;
+   }
+}
+main section{
+    margin: 0 7.5% 3% 7.5%;
+    padding-bottom: 3em;
+    width: 85%;
+}
+/*Newspapers page styles*/
+#newspapers section{
+    text-align: center;
+}
+#newspapers article{
+    display: inline-block;
+    text-align: center;
+    margin: 0 1em;
+    vertical-align: top;
+    width: 170px;
+}
+#newspapers article img{
+    border: 1px solid black;
+}
+#newspapers article p{
+    font-size: 1.3em;
+}
+/*Services page styles*/
+#services section{
+    font-size: 1.5em;
+    text-align: justify;
+}
+#services p{
+    margin:.5em 0;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+table td{
+    border: 1px solid black;
+    padding: .7em 1.5em;
+    text-align: center;
+}
+.bolded{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 1em 0;
+}
+#services section p:last-of-type{
+    font-weight: bold;
+    font-style: italic;
+}
+/*aboutUs page styles*/
+#aboutUs img{
+    float: left;
+    margin-right: 1em;
+    border: 1px solid black;
+}
+#aboutUs p{
+    font-size: 1.3em;
+    margin: 1em 0;
+    text-align: left;
+}
+/*Romania expos styles*/
+.expos article{
+    width: 70%;
+    box-shadow: 1px 4px 10px 2px rgba(0,0,0,0.5);
+    background-color: white;
+    padding-bottom: 1em;
+}
+.active{
+    display: block;
+}
+.disable{
+    display: none;
+}
+.expos img{
+    width: 100%;
+}
+.expos p{
+    font-size: 1.4em;
+    margin: .4em 0;
+}
+.expos a{
+    color: black;
+}
+.expos div{
+    margin-top: 2em;
+    font-size: 1.6em;
+}
+.expos div a{
+    padding: .2em .5em;
+    border-radius: 5px;
+    transition: background-color .5s;
+}
+.expos div a:hover{
+    background-color: #b0d4f1;
+    color: white;
+}
+.subExpos img{
+    width: 50%;
+}
+.subExpos div{
+    font-size: 1.4em;
+    text-align: justify;
+    margin: 2em 0;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a109269-8e88-4e07-94ad-3ab0202d5298" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Cars.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PS8gLdDr0AdOpkriIbmRAkQWkD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/проекти - олимпиади/51" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\busines-expo website\biznes-expo\html\bgVersion\subExpoInfo" />
+      <recent name="D:\busines-expo website\biznes-expo\html\bgVersion" />
+      <recent name="D:\Проекти\Cars\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a109269-8e88-4e07-94ad-3ab0202d5298" name="Default Changelist" comment="" />
+      <created>1560254238829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560254238829</updated>
+      <workItem from="1560254241032" duration="5702000" />
+      <workItem from="1560340174525" duration="5757000" />
+      <workItem from="1560425702323" duration="105000" />
+      <workItem from="1560425874948" duration="5991000" />
+      <workItem from="1560463157050" duration="3237000" />
+      <workItem from="1562320222731" duration="637000" />
+      <workItem from="1562320956968" duration="1378000" />
+      <workItem from="1562322335988" duration="5893000" />
+      <workItem from="1564647053168" duration="773000" />
+      <workItem from="1564648242695" duration="13948000" />
+      <workItem from="1564731871632" duration="13571000" />
+      <workItem from="1565000869053" duration="9433000" />
+      <workItem from="1565086360144" duration="10835000" />
+      <workItem from="1565595856071" duration="3246000" />
+      <workItem from="1565610840078" duration="6172000" />
+      <workItem from="1565855626590" duration="107000" />
+      <workItem from="1565856260050" duration="3180000" />
+      <workItem from="1565945859518" duration="5536000" />
+      <workItem from="1566393553013" duration="6394000" />
+      <workItem from="1566548612066" duration="7874000" />
+      <workItem from="1566808079454" duration="66000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

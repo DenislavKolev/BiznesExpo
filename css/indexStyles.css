@@ -1,0 +1,161 @@
+body, main, div, section, p, ul, li, nav, a, header, img, i{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+}
+p, h3{
+    padding: 0 .5em;
+}
+/*index page header stylees*/
+#mobile_nav{
+    display: none;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    font-size: 4em;
+    text-align: right;
+    padding-right: 15px;
+}
+#mobile_nav a{
+    color: white;
+}
+#close{
+    display: none;
+    color: white;
+}
+header{
+    position: fixed;
+    z-index: 30;
+    background-color: transparent;
+    width: 100%;
+    transition: all ease-out .5s;
+}
+.activated{
+    background-color: black;
+}
+header nav{
+    display: inline-block;
+    padding: .5em 3em;
+    width: 100%;
+}
+@media (max-width: 750px) {
+    header nav{
+        display: none;
+    }
+    #mobile_nav{
+        display: block;
+    }
+}
+header nav ul{
+    display: inline-block;
+}
+#subPagesNav{
+    float: right;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    font-size: 1.6em;
+    padding: .6em;
+}
+header nav ul li a{
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+header nav ul li a:hover, #mobile_nav a:hover, #close:hover{
+    color: #b0d4f1;
+}
+nav ul li a:not(.notUnderline):after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #b0d4f1;
+    transition: width ease-in .4s;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+/*expo section styles*/
+#intro, #expos{
+    margin-bottom: 3em;
+}
+@media (max-width: 750px) {
+    #intro h2{
+        font-size: 2.5em;
+    }
+    #intro p{
+        font-size: 1.5em;
+    }
+}
+#expos div section{
+    -webkit-box-shadow: 0px 10px 30px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 30px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 30px 1px rgba(0,0,0,0.75);
+    margin: 0 1em;
+    padding: 1em 0;
+}
+#expos section div img{
+    margin: auto;
+}
+#romania img{
+    width: 80%;
+}
+#germany img{
+    width: 42%;
+}
+#albania img{
+    width: 28%;
+}
+#expos section div ~ p{
+    margin-top: .8em;
+}
+#expos section a{
+    text-decoration: none;
+    color: black;
+}
+section h1, #expos h3, section p{
+    text-align: center;
+}
+/*contact section styles*/
+#contacts{
+    background-color: #f8f8f8;
+    padding: 2em;
+}
+#contacts > p:first-of-type{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+#contacts > p:first-of-type ~ p{
+    font-size: 1.4em;
+}
+#contacts div, #expos div {
+    display: flex;
+    padding-top: 1em;
+    width: 90%;
+    margin: auto;
+}
+#contacts div section, #expos div section {
+    flex: 1;
+    font-size: 1.35em;
+}
+@media (max-width: 1000px) {
+
+    #contacts div, #expos div{
+        display: block;
+    }
+    #expos div section{
+        margin: 3em 1em;
+        text-align: center;
+    }
+}
+i{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
